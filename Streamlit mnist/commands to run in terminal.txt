@@ -1,0 +1,18 @@
+in terminal run
+
+cd C:\Users\Dell\DLNN_LAB
+
+cd C:\Users\Dell\Downloads
+
+pip install --user pandas numpy tensorflow matplotlib streamlit pillow
+
+python mnist_train.py
+
+python cifar_train.py
+
+streamlit run mnist_gui.py
+
+streamlit run cifar_gui.py
+
+
+
